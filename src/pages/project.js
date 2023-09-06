@@ -46,7 +46,7 @@ export default function Project() {
                 <Navbar />
             </div>
             <p className="proj_title">
-                <Link to="/" className='back_but'>⬅</Link>
+                <Link to="/profile" className='back_but'>⬅</Link>
                 Projects
             </p>   
             {/* webapps */}

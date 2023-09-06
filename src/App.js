@@ -22,8 +22,8 @@ function App() {
     <>
       <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Project />} />
+        <Route path="profile/" element={<Home />} />
+        <Route path="profile/projects" element={<Project />} />
       </Routes>
     </Router>
       {/* {current} */}
